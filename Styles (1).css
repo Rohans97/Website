@@ -1,0 +1,292 @@
+
+
+
+
+h1 {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 5em;
+	font-weight: 90em;
+    color: white;
+}
+h2 {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 2em;
+	font-weight: 50em;
+    color: white;
+}
+p {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 1em;
+	font-weight: 25em;
+    color: white;
+}
+a.left {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 3em;
+	font-weight: 120em;
+	background: transparent url('beigeback.png');
+	border: none;
+	padding: 15px 30px;
+	text-align: center;
+	text-decoration: none; 
+	display: inline-block;
+	font-size: 16px;
+    position: relative;
+    top: 60%;
+    left: 50%;
+    margin-left: -500px;
+    width: 100px;
+    color: teal;
+}
+    
+    
+a.center {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        font-size: 3em;
+        font-weight: 120em;
+        background: transparent url('beigeback.png');
+        border: none;
+        padding: 15px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        position: relative;
+        top: 60%;
+        left: 50%;
+        margin-left: -100px;
+        width: 100px;
+        color: teal;
+    }
+
+a.right {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 3em;
+    font-weight: 120em;
+    background: transparent url('beigeback.png');
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+    top: 60%;
+    left: 50%;
+    margin-left: 100px;
+    width: 100px;
+    color:teal;
+}
+a.veryright {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 3em;
+    font-weight: 120em;
+    background: transparent url('beigeback.png');
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+    top: 60%;
+    left: 50%;
+    margin-left: 400px;
+    width: 100px;
+    color:teal;
+}
+
+
+
+    /*animation: spin 10s linear infinite; */
+  /*Set our animation play state to paused initially */
+  /*animation-play-state: paused; */
+  
+/*a.left:hover {
+animation-play-state: running;
+}
+@keyframes spin {
+  100% {transform: rotate(1turn); } 
+} */
+/*a.middle {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 3em;
+	font-weight: 120em;
+	background: transparent url('beigeback.png');
+	border: none;
+	padding: 15px 30px;
+	text-align: center;
+	text-decoration: none; 
+	display: inline-block;
+	font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -100px;
+    width: 100px;
+    color: teal; 
+}*/
+/*a.statement {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 3em;
+	font-weight: 100em;
+	background: transparent url('beigeback.png');
+	border: none;
+	padding: 100px 200px;
+	text-align: center;
+	text-decoration: none; 
+	display: inline-block;
+	font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    margin-left: 400px;
+    width: 100px;
+    color:teal;
+}
+*/
+/*iframe {
+	display:block;
+}
+*/
+
+
+.navbar-default div {
+    display:table;
+    width: 100%;
+}
+.navbar-default ul {
+    display:table-row;
+}
+.navbar-default ul li {
+    display: table-cell;
+    height:60px;
+    text-align: center;
+    vertical-align: middle;
+    width:33%;
+    border: solid 1px black;
+}
+
+.navbar-default ul li a {
+    vertical-align: middle;
+    border: solid 1px black;
+    text-decoration: none;
+    display: block;
+    line-height: 60px;
+    height: 60px;
+}
+.navbar-default ul li a span {
+    border-bottom: 3px solid black;
+}
+.navbar-default ul li:last-child a span {
+    font-size: 38px;
+}
+.navbar-default ul li a:hover span,
+.navbar-default ul li a:active span {
+    border-bottom: 3px solid #ffd460!important;
+}
+
+
+/* Page content */
+.content {
+    padding: 20px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 60px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5em;
+    font-weight: 90em;
+}
+
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 20px;
+    font-size: 5em;
+    font-weight: 90em;
+}
+
+/* Top right text */
+
+.top-right {
+    
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 5em;
+    font-weight: 90em;
+}
+
+.top-right2 {
+    
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 2em;
+    font-weight: 90em;
+}
+
+.top-right3 {
+    
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 2em;
+    font-weight: 90em;
+}
+
+.top-right4 {
+    
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 2em;
+    font-weight: 90em;
+}
+
+.top-right5 {
+    
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 2em;
+    font-weight: 90em;
+}
+
+#content .col {
+    float: left;
+}
+
+#footer {
+    clear: left;
+}
+
+
+.main-content img {
+    float: left;
+    padding: 0 20px 20px 0;
+}

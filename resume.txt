@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="Styles.css">
+<body
+background="backgroundimage.jpg">
+<h1>Resume</h1>
+<h2>Welcome to my resume</h2> 
+<p>Click on any button for more information</p>
+</body>
+</html>
